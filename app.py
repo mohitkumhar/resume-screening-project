@@ -9,8 +9,9 @@ import nltk
 import string
 from nltk.stem import WordNetLemmatizer
 import PyPDF2
-from builtins import Exception
 import docx
+import exceptions
+
 
 
 nltk.download('punkt')
